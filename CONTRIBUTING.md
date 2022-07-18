@@ -272,6 +272,8 @@ Running the above command will result in the following output in your terminal
 
 When you see the above output, it means the site is now running and now you can browse to http://localhost:4000
 
+**NOTE:** If it takes longer than 2 minutes to build your website using `docker-compose up`, please let the [technical leads](https://github.com/hackforla/website/wiki/Meet-the-Team) know about this and add your website build time in a comment to [issue #1443](https://github.com/hackforla/website/issues/1443). Also, once you are part of the merge team, you can work on [issue #1443](https://github.com/hackforla/website/issues/1443) and fix it (if you want).
+
 #### **1.6.b Stopping Docker**
 
  - To stop and completely remove the jekyll server (i.e. the running Docker container):
@@ -351,6 +353,8 @@ And the following **size** labels:
 * `size: Medium`
 * `size: Large`
 
+**Note:** The Prioritized Backlog column is filtered so the first (top) issue has the highest priority and should be worked on next. <br />
+
 **Note:** if you would like to learn more about our label system you can read this [wiki on how to read and interpret our repo labels](https://github.com/hackforla/website/wiki/How-to-read-and-interpret-labels)
 
 <sub>[Back to Table of Contents](#table-of-contents)</sub>
@@ -381,7 +385,7 @@ There are only 2 columns that you will be consistently referencing:
 
 #### **2.3.a Available issues for new members (front end/back end)**
 
-We recommend you visit the `Prioritized Backlog` column in the [filtered Project Board `good first issues` link](https://github.com/hackforla/website/projects/7?card_filter_query=label%3A%22role%3A+front+end%22+label%3A%22good+first+issue%22#column-7198257). This filtered board will only show issues with the `good first issue` label.
+We recommend you visit the `Prioritized Backlog` column in the filtered Project Board using the following links: [`good first issues` (front end)](https://github.com/hackforla/website/projects/7?card_filter_query=label%3A%22role%3A+front+end%22+label%3A%22good+first+issue%22#column-7198257) and [`good first issues` (back end)](https://github.com/hackforla/website/projects/7?card_filter_query=label%3A%22good+first+issue%22+label%3A%22role%3A+back+end%2Fdevops%22#column-7198257). These links will take you to a filtered Project Board and will only show issues with the `good first issue` label for both front end and back end respectively.
 
 **Note:** The column is filtered so the first (top) issue has the highest priority and should be worked on next.
 
@@ -415,7 +419,7 @@ If you see any bugs/errors within the site and there is not an issue for it, ple
 
 ### **2.4 Claiming an Issue**
 
-Once you find an issue you want to work on, you need to self-assign to claim it and then move the issue from the `Prioritized Backlog` to the `In progress`. Both of these tasks can be accomplished within the issue. Please see the examples below.
+Once you find an issue you want to work on, you need to self-assign to claim it and then move the issue from the `Prioritized Backlog` to the `In progress`. Both of these tasks can be accomplished within the issue. Please see the examples below. (Note: Any issue that you are working on besides the pre-work issue should remain in the `In progress` column and stay open. Once a member of the merge team or a tech lead merges your pull request associated with that issue, there is automation through GitHub Actions that will take care of moving the issue to a different column and closing the issue.)
 
 #### **2.4.a Assign & Unassign yourself to this issue**
 <details>

@@ -5,7 +5,6 @@ description: The 311 Data project seeks to empower local Neighborhood Councils t
 image: /assets/images/projects/311_data.png
 alt: '311 data logo.'
 image-hero: /assets/images/projects/311data-beta.png
-alt-hero: 'Macbook Pro showing the 311 data app display. On the left of the screen shows input options and selections for dates, neighborhood council and various requests. On the right of the screen shows a map of LA county and its corresponding checked neighborhood council and requests.'
 leadership:
   - name: Eric Cho
     role: Product Manager
@@ -69,7 +68,7 @@ solution: We partnered with the Los Angeles Department of Neighborhood Empowerme
 impact: Neighborhood Councils are able to use visualizations to demonstrate and discuss the city service levels with constituents and determine where to send mailings to target information to those parts of their community not availing themselves of specific city services.
 sdg: '<strong>16.8:</strong> Broaden and strengthen the awareness and participation of City and local communities, especially those traditionally underserved and marginalized, in the institutions of local and global governance.'
 card-image-src: /assets/images/projects/311.jpg
-card-image-alt: 311 project card
+card-image-alt:
 sdg-image-src: /assets/images/about/sdg-elements/peace-justice.svg
 sdg-image-alt: peace justice bottom sustainable dev goal
 ---
